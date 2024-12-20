@@ -22,6 +22,9 @@ export const useGetUserData = () => {
         link: 'https://x.com/r_kodev/',
       },
     ],
+    phone: '+380632357146',
+    email: 'ruslan.kolibabchuk@gmail.com',
+    address: 'Ukraine',
   };
 
   return {

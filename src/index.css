@@ -21,4 +21,38 @@ code {
   .social-link {
     @apply block p-2 text-center transition duration-300 hover:bg-primary w-10 h-10 bg-blue-100 rounded-full;
   }
+  .primary-button {
+    @apply inline-block min-w-44 text-center bg-primaryDark text-white py-4 px-7 font-bold text-base rounded border border-primaryDark;
+  }
+  .secondary-button {
+    @apply inline-block min-w-44 text-center transition duration-300 bg-transparent py-4 px-7 font-bold text-base rounded text-main border border-primaryDark hover:bg-primaryDark hover:text-white;
+  }
+  .container-block {
+    @apply max-w-7xl w-full;
+  }
+  .container-row {
+    @apply grow p-10 items-center justify-center;
+  }
+
+  .regular-text {
+    @apply text-main text-opacity-80 font-medium text-lg leading-8;
+  }
+
+  .styled-block {
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 3;
+      background: rgba(255, 255, 255, 0.5);
+      content: "";
+      transition: transform 0.6s;
+      transform: scale3d(3.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+    }
+    &:hover:before {
+      transform: scale3d(3.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    }
+  }
 }
