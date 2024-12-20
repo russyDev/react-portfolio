@@ -1,6 +1,5 @@
 import React, { FC, useRef, useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import './styles.css';
 import { CloseIcon } from '../icons';
 
 type Props = {
@@ -45,7 +44,7 @@ export const Modal: FC<Props> = ({ open, children, onClose, title }) => {
       {createPortal(
         <div className="fixed z-1 top-0 left-0 w-full h-full bg-black bg-opacity-60 flex items-center justify-center">
           <div
-            className="modal bg-white w-full max-w-4xl max-h-[80%] rounded overflow-auto"
+            className="modal bg-white w-full max-w-4xl max-h-[90%] rounded overflow-auto px-4"
             ref={modalRef}
           >
             <div className="modal-header px-5 flex justify-between bg-white sticky top-0 py-4">

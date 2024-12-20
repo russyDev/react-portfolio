@@ -38,6 +38,10 @@ code {
     @apply text-main text-opacity-80 font-medium text-lg leading-8;
   }
 
+  .input {
+    @apply block w-full rounded mb-2 p-2 text-main placeholder:text-main placeholder:text-opacity-55 text-lg border outline-none;
+  }
+
   .styled-block {
     &:before {
       position: absolute;

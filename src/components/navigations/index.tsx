@@ -19,8 +19,8 @@ const links = [
     text: 'Portfolio',
   },
   {
-    to: '/contacts',
-    text: 'Contacts',
+    to: '/contact',
+    text: 'Contact',
   },
 ];
 
