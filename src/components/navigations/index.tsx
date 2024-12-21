@@ -14,10 +14,10 @@ const links = [
     to: '/services',
     text: 'Services',
   },
-  {
+  /*  {
     to: '/portfolio',
     text: 'Portfolio',
-  },
+  },*/
   {
     to: '/contact',
     text: 'Contact',

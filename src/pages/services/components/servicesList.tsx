@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { skills } from '../../../hooks/data';
 import { ArrowRightIcon } from '../../../components/icons';
-import './styles.css';
 import { ServiceModal } from './serviceModal';
 import { ServiceType } from '../../../types';
+import './styles.css';
 
 export const ServicesList = () => {
   const [open, setOpen] = useState(false);
@@ -13,7 +13,7 @@ export const ServicesList = () => {
     <div className="grid lg:grid-cols-2 2xl:grid-cols-3 gap-4">
       {skills.services.map((service, key) => (
         <div
-          className="border rounded p-8 transition duration-300 cursor-pointer hover:translate-y-[-4px]"
+          className="border rounded p-8 transition duration-300 cursor-pointer hover:translate-y-[-4px] relative"
           key={key}
           onClick={() => {
             setSelectedService(service as ServiceType);
