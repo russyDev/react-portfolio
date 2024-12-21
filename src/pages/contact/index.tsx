@@ -47,7 +47,7 @@ export const ContactPage = () => {
 
             <div className="mt-16">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9152108.643875271!2d31.182437349999997!3d48.33606545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d1d9c154700e8f%3A0x1068488f64010!2z0KPQutGA0LDRl9C90LA!5e1!3m2!1suk!2sua!4v1734689259739!5m2!1suk!2sua"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7875370.431280723!2d30.899850718887556!3d48.6640209070204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d1d9c154700e8f%3A0x1068488f64010!2z0KPQutGA0LDRl9C90LA!5e1!3m2!1suk!2sua!4v1734689470294!5m2!1suk!2sua"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}

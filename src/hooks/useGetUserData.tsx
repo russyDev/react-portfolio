@@ -1,5 +1,6 @@
 import img from 'src/assets/user.png';
 import { FacebookIcon, LinkedinIcon, XIcon } from 'src/components/icons';
+import { skills } from './data';
 
 export const useGetUserData = () => {
   const user = {
@@ -29,5 +30,6 @@ export const useGetUserData = () => {
 
   return {
     user,
+    skills,
   };
 };
