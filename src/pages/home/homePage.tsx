@@ -13,13 +13,13 @@ export const HomePage = () => {
         <div className="container-row bg-white flex">
           <div className="container">
             <div className="xl:flex gap-8 items-center justify-center w-full">
-              <div className="min-h-full">
+              <div className="min-h-full w-full">
                 <Details />
                 <Links />
               </div>
-              <div className="hidden xl:block grow p-20">
+              {/*<div className="hidden xl:block grow p-20">
                 <img src={img} alt="" className="max-w-[500px] w-full opacity-90" />
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
