@@ -30,8 +30,8 @@ export const Layout: FC<Props> = ({ children }) => {
           <p className="text-center text-base text-main">All rights reserved.</p>
         </div>
       </div>
-      <div className="flex-grow bg-teal-50 h-screen overflow-auto">
-        <div className="w-full bg-white h-20 md:hidden flex items-center px-4 justify-between sticky top-0">
+      <div className="flex-grow bg-teal-50 h-screen overflow-auto flex flex-col">
+        <div className="w-full bg-white h-20 md:hidden flex items-center px-4 justify-between flex-none">
           <div className="font-bold text-primary text-2xl">Ruslan K.</div>
           <div onClick={() => setOpenMenu(true)}>
             <MenuIcon className="" />

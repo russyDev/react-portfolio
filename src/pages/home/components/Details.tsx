@@ -4,11 +4,11 @@ import { Link } from 'react-router';
 export const Details = () => {
   return (
     <>
-      <h3 className="text-6xl text-primaryDark font-bold mb-2">
+      <h3 className="text-3xl md:text-6xl text-primaryDark font-bold mb-2">
         Hi, I'm <span className="text-primary">Ruslan!</span>
       </h3>
-      <h3 className="text-6xl text-primaryDark font-bold mb-2">Creative Developer</h3>
-      <h3 className="text-6xl text-primaryDark font-bold">Based in Ukraine</h3>
+      <h3 className="text-3xl md:text-6xl text-primaryDark font-bold mb-2">Creative Developer</h3>
+      <h3 className="text-3xl md:text-6xl text-primaryDark font-bold">Based in Ukraine</h3>
       <p className="mt-10 text-2xl">
         I'm a Ukraine based front-end developer with
         <br />

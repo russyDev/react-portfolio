@@ -10,7 +10,7 @@ export const AboutPage = () => {
   const { user } = useGetUserData();
   return (
     <Layout>
-      <div className="flex flex-col h-full overflow-scroll">
+      <div className="flex flex-col grow overflow-scroll">
         <div className="container-row bg-white flex">
           <div>
             <div className="xl:flex gap-2 container pt-28">

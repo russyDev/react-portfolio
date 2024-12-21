@@ -9,7 +9,7 @@ export const ContactPage = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col h-full overflow-scroll">
+      <div className="flex flex-col grow overflow-scroll">
         <div className="container-row bg-sky-50 flex">
           <div>
             <div className="xl:flex gap-40 container pt-28">

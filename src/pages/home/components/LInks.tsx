@@ -6,7 +6,7 @@ export const Links = () => {
   const { user } = useGetUserData();
 
   return (
-    <ul className="border-l-4 border-orange-400 pl-2 mt-40">
+    <ul className="border-l-4 border-orange-400 pl-2 mt-10 md:mt-40">
       <li>
         <Link className="block text-base text-primaryDark font-bold mb-3" to={`tel:${user.phone}`}>
           {user.phone}
